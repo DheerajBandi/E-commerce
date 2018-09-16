@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-<b>About us Page</b>
+<b>About Us</b>
 </div>
 </body>
 </html>

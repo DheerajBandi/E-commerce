@@ -228,7 +228,7 @@ $(document).ready(function(){
 				<form:label class="col-lg-2" path="shippingaddress.city">Enter city</form:label>
 				<div class="col-sm-6">
 					<form:input class="form-control" path="shippingaddress.city"
-						id="shippingaddress.city" />
+						id="shippingaddress.city" placeholder="City"/>
 				</div>
 			</div>
 
@@ -237,7 +237,7 @@ $(document).ready(function(){
 				<form:label class="col-lg-2" path="shippingaddress.state">Enter state</form:label>
 				<div class="col-sm-6">
 					<form:input class="form-control" path="shippingaddress.state"
-						id="shippingaddress.state" />
+						id="shippingaddress.state" placeholder="State"/>
 				</div>
 			</div>
 
@@ -246,7 +246,7 @@ $(document).ready(function(){
 				<form:label class="col-lg-2" path="shippingaddress.country">Enter country</form:label>
 				<div class="col-sm-6">
 					<form:input class="form-control" path="shippingaddress.country"
-						id="shippingaddress.country" />
+						id="shippingaddress.country" placeholder="Country"/>
 				</div>
 			</div>
 
@@ -255,7 +255,7 @@ $(document).ready(function(){
 				<form:label class="col-lg-2" path="shippingaddress.zipcode">Enter zipcode</form:label>
 				<div class="col-sm-6">
 					<form:input class="form-control" path="shippingaddress.zipcode"
-						id="shippingaddress.zipcode" />
+						id="shippingaddress.zipcode" placeholder="Zipcode"/>
 				</div>
 			</div>
 

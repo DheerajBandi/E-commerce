@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>FlipKart</title>
 </head>
 <body>
 	<!--  <div class="container">-->
@@ -20,12 +20,12 @@
 		<div class="carousel-inner" role="listbox">
 			<div class="item active" style="width: 100%; height: 280px">
 
-				<a href="<c:url value='/all/searchByCategory?searchCondition=Electronics'></c:url>"><img src="resources/images/mob.jpg" alt="first slide"></a>
+				<a href="<c:url value='/all/searchByCategory?searchCondition=Electronics'></c:url>"><img src="resources/images/ebay.PNG" alt="first slide"></a>
 				<div class="container">
 					<div class="carousel-caption">
-						<!--  <h1>WELCOME TO THE CAR STORE</h1>
-							<p>Here You Can Browse And Buy Cars.Order Now For Your
-								Amazing New Arrivals</p> -->
+						  <h1> Wide range of Mobiles</h1>
+						  
+							<p>Amazing Deals!!!</p> 
 					</div>
 				</div>
 			</div>
@@ -33,8 +33,8 @@
 				<a href="<c:url value='/all/searchByCategory?searchCondition=Clothing'></c:url>"><img src="resources/images/fashion1.jpg" alt="Second slide"></a>
 				<div class="container">
 					<div class="carousel-caption">
-						<!--  <h1>The Car Store.</h1>
-							<p>online shopping can make your life more easier</p> -->
+						 <h1>All branded clothes</h1>
+							<p>FLAT 10% off</p> 
 					</div>
 				</div>
 			</div>
@@ -42,8 +42,8 @@
 				<a href="<c:url value='/all/searchByCategory?searchCondition=Footwear'></c:url>"><img src="resources/images/footwear.jpg" alt="Third slide"></a>
 				<div class="container">
 					<div class="carousel-caption">
-						<!--  <h1>The Car You Love</h1>
-							<p>live Freely,Work Happily And Drive Safely!!</p> -->
+						  <h1>Branded Footwear</h1>
+							<p>FLAT 20% HURRY UP!!!</p> 
 					</div>
 				</div>
 			</div>
@@ -51,11 +51,21 @@
 				<a href="<c:url value='/all/searchByCategory?searchCondition=Furniture'></c:url>"><img src="resources/images/fur.jpg" alt="forth slide"></a>
 				<div class="container">
 					<div class="carousel-caption">
-						<!--  <h1>Any car can be a "cool" car</h1>
-							<p>your life,your car...you own it!!</p> -->
+						  <h1>Design your home more beautiful</h1>
+							<p>End of Season SALE!!!</p> 
 					</div>
 				</div>
 			</div>
+			<div class="item" style="width: 100%; height: 280px">
+				<a href="<c:url value='/all/searchByCategory?searchCondition=Mobile Accessories'></c:url>"><img src="resources/images/accessories.jpg" alt="Fifth slide slide"></a>
+				<div class="container">
+					<div class="carousel-caption">
+						  <h1>All Accessories Available</h1>
+							<p>Pick Your Best Here</p>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		<a class="left carousel-control" href="#myCarousel" role="button"
 			data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span>
@@ -78,7 +88,7 @@
 							<span style="color: red;">${p.price}</span></b><br><br>
 							<security:authorize access="hasRole('ROLE_USER')">
 							<a href="<c:url value='/all/getproduct/${p.id }'></c:url>"><span class="glyphicon glyphicon-shopping-cart" ></span>Add To Cart</a>
-							<br><br><br><br><br><br>
+							
 							</security:authorize>
 							<br><br><br><br><br><br>
 					</center>
